@@ -1,0 +1,6 @@
+file = open('config.txt', 'w')
+file.write('0')
+file.write('0')
+file.write('0')
+file.close()
+print('Выполнен сброс. Закройте данное окно и запустите основную программу.')
